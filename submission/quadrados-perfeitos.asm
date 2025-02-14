@@ -9,9 +9,9 @@ loop    LD      N_end
         AD      prev
 
         MM      prev
-addr    MM      /101
+addr    MM      /102
         LD      addr
-        AD      val_1
+        AD      val_2
         MM      addr
 
         LD      N_cur
