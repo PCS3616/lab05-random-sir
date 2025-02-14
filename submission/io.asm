@@ -14,6 +14,7 @@
         
 PRINT   AD      VAL1
         PD      /100 ; Mostra 2 bytes (palavra)
+        HM      =0
 
 HEXTOD  LD      SUM_RAW
         SB      VAL2
