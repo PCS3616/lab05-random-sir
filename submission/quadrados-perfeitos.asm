@@ -23,7 +23,7 @@ addr    MM      /102
 e_loop  HM      =0
 
 N_end   K       =64
-N_cur   K       =1
+N_cur   K       =0
 prev    K       =0
 val_1   K       =1
 val_2   K       =2
