@@ -3,6 +3,8 @@
         SC      fact    ;chamar fatorial
         HM      /000    ;terminar execucao
 
+;------------------------------------------------
+;subrotina fatorial
 fact    K       /0000   ;ininio da subrotina
 
         LD      N       ;N para AC
@@ -17,15 +19,17 @@ loop    LD      N       ;loop principal/ N para AC
         MM      factN   ;(N-1)*N para AC
         JP      loop    ;entrar no loop de novo
         
-case_0  LV      =001
+case_0  LV      =1
         MM      factN
 
 e_loop  RS      fact
 
-        @       /100    ;data section
-N       K       =0001   ;N
-factN   K       =0000   ;N!
-val_1   K       =0001   ;valor literal 1
+;------------------------------------------------
+;data section
+        @       /100    
+N       K       =1   ;N
+factN   K       =0   ;N!
+val_1   K       =1   ;valor literal 1
 
 
 
